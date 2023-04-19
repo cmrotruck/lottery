@@ -1,7 +1,12 @@
-import React from "react";
+import { React } from "react";
+import Powerball from "../../Components/Powerball";
 
 const Home = () => {
-  return <button>Get Picks</button>;
+  return (
+    <div>
+      <Powerball />
+    </div>
+  );
 };
 
 export default Home;
